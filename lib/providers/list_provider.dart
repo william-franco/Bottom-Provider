@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 
 class ListProvider with ChangeNotifier {
@@ -28,6 +30,6 @@ class ListProvider with ChangeNotifier {
   }
 
   void _debugProvider() {
-    print('List item: $_numbers');
+    log('List item: $_numbers');
   }
 }
